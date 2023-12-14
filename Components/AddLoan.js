@@ -6,7 +6,7 @@ const INTEREST_RATES = {
   36: 9,
 };
 
-const AddLoan = () => {
+  const AddLoan = () => {
   const [getLoan, setLoan] = useState('');
   const [monthlyEMI, setMonthlyEMI] = useState(null);
   const customerIdRef = useRef();
